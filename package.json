@@ -1,0 +1,8 @@
+{
+  "name": "fusion",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ugistelmokaitis/fusion.git",
+  "author": "Ugi Stelmokaitis <hello@ugistelmokaitis.com>",
+  "license": "MIT"
+}
