@@ -428,7 +428,7 @@ module.exports = {
             'error',
             {
                 selector: 'default',
-                format: ['camelCase', 'PascalCase', 'snake_case', 'Upper_Snake_Case'],
+                format: ['camelCase', 'PascalCase', 'snake_case', 'UPPER_CASE'],
             }, // Enforce using a particular method signature syntax
 
             {
