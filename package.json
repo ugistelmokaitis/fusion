@@ -1,7 +1,7 @@
 {
 	"name": "@ugistelmokaitis/fusion",
 	"description": "Strict linting configuration for React-apps.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publishConfig": {
 		"registry": "https://registry.npmjs.org/"
 	},
