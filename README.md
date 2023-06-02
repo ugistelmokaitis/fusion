@@ -112,8 +112,6 @@ code --install-extension stylelint.vscode-stylelint
   "typescript.tsdk": "node_modules/typescript/lib",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "editor.tabSize": 4, // My preference is 4, but you can change it to the default 2.
-  "editor.wordWrapColumn": 120, // My preference is 120, but you can change it to the default 80.
   "editor.formatOnPaste": true,
   "emmet.showExpandedAbbreviation": "never",
   "editor.codeActionsOnSave": {
