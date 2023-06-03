@@ -54,8 +54,6 @@ jest
 yarn add -D @ugistelmokaitis/fusion
 ```
 
-if you're using npm:
-
 ```sh
 yarn add -D \
 eslint \
