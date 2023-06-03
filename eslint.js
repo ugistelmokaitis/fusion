@@ -678,6 +678,5 @@ module.exports = {
         'n/no-process-env': 'off', // Disallow the use of process.env
         'n/no-restricted-import': 'error', // Disallow specified modules when loaded by import
         'n/no-restricted-require': 'error', // Disallow specified modules when loaded by require
-        'n/no-buffer-constructor': 'error', // Disallow use of the Buffer() constructor
     },
 };
