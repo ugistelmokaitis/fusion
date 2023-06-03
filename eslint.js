@@ -606,13 +606,6 @@ module.exports = {
         'jest/valid-expect': 'error', // Enforce valid expect() usage
         'jest/valid-expect-in-promise': 'error', // Require promises that have expectations in their chain to be valid
         'jest/valid-title': 'error', // Enforce valid titles
-        // !Cypress ESLint Plugin for Cypress.io
-        'cypress/no-assigning-return-values': 'error', // Disallow assigning return values from Cypress commands
-        'cypress/no-unnecessary-waiting': 'error', // Disallow unnecessary calls to cy.wait()
-        'cypress/assertion-before-screenshot': 'warn', // Require calling assertions before screenshots
-        'cypress/no-force': 'warn', // Disallow using cy.force() in tests
-        'cypress/no-async-tests': 'error', // Disallow async tests
-        'cypress/no-pause': 'error', // Disallow using cy.pause() in tests
         // !Jsx a11y rules for accessibility
         'jsx-a11y/no-static-element-interactions': 'error', // Enforce that non-interactive, visible elements (such as <div>) that have click handlers use the role attribute.
         'jsx-a11y/role-has-required-aria-props': 'error', // Enforce that elements with ARIA roles must have all required attributes for that role.
