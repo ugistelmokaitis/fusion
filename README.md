@@ -53,8 +53,6 @@ jest
 yarn add -D @ugistelmokaitis/fusion
 ```
 
-if you're using npm:
-
 ```sh
 yarn add -D \
 eslint \
@@ -104,7 +102,7 @@ code --install-extension stylelint.vscode-stylelint
 
 4. Remove any existing `.eslintrc`, `stylelint.config.js` and `.prettierrc` files from your project to avoid conflicts. As long as you have the fields above in your `package.json`, you don't need these files.
 
-5. Add folder `.vscode` to your project root and create the following `.vscode/extensions.json`:
+5. Add folder `.vscode` to your project root and create the following `.vscode/settings.json`:
 
 ```json
 {
