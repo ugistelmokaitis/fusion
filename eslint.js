@@ -12,16 +12,7 @@ module.exports = {
             jsx: true,
         },
     },
-    plugins: [
-        'react',
-        'react-hooks',
-        '@typescript-eslint',
-        'jsx-a11y',
-        'import',
-        'jest',
-        'promise',
-        'n',
-    ],
+    plugins: ['react', 'react-hooks', '@typescript-eslint', 'jsx-a11y', 'import', 'jest', 'promise', 'n'],
     ignorePatterns: ['**/*.js'],
     extends: ['plugin:react/jsx-runtime', 'prettier', 'plugin:import/typescript'],
     settings: {
@@ -127,7 +118,7 @@ module.exports = {
         'react/jsx-uses-react': 'error', // Disallow React to be incorrectly marked as unused
         // !ESLint-Promise rules
         'promise/param-names': 'error', // Enforce consistent param names when creating new promises.
-        'promise/catch-or-return': ['error', {allowFinally: true}], // Avoid wrapping values in Promise.resolve or Promise.reject when not needed.
+        'promise/catch-or-return': ['error', { allowFinally: true }], // Avoid wrapping values in Promise.resolve or Promise.reject when not needed.
         'promise/no-native': 'off', // Disallow using promises instead of callbacks in the Node.js API.
         'promise/no-nesting': 'error', // Avoid nested .then() or .catch() statements
         'promise/no-promise-in-callback': 'error', // Avoid using promises inside of callbacks
@@ -329,7 +320,7 @@ module.exports = {
             'error',
             {
                 ArrayExpression: 'consistent',
-                ArrayPattern: {minItems: 2},
+                ArrayPattern: { minItems: 2 },
             },
         ], // Enforce line-breaks after opening and before closing array brackets
         'function-call-argument-newline': 'off', // Enforce line breaks between arguments of a function call
@@ -509,13 +500,7 @@ module.exports = {
         '@typescript-eslint/unbound-method': 'error', // Enforce unbound methods are called with their expected scope
         '@typescript-eslint/unified-signatures': 'error', // Disallow two overloads that could be unified into one with a union or an optional/rest parameter
         // !ESLint plugin with rules that help validate proper imports
-        'import/no-unresolved': [
-            'error',
-            {
-                commonjs: true,
-                caseSensitive: true,
-            },
-        ], // Ensure imports point to a file/module that can be resolved.
+        'import/no-unresolved': 'off', // Ensure imports point to a file/module that can be resolved.
         'import/named': 'error', // Ensure named imports correspond to a named export in the remote file.
         'import/default': 'error', // Ensure a default export is present, given a default import.
         'import/namespace': 'error', // Ensure imported namespaces contain dereferenced properties as they are dereferenced.
