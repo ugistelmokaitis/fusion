@@ -320,7 +320,7 @@ module.exports = {
             'error',
             {
                 ArrayExpression: 'consistent',
-                ArrayPattern: { minItems: 2 },
+                ArrayPattern: { minItems: 3 },
             },
         ], // Enforce line-breaks after opening and before closing array brackets
         'function-call-argument-newline': 'off', // Enforce line breaks between arguments of a function call
