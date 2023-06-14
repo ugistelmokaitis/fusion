@@ -531,7 +531,12 @@ module.exports = {
         'import/no-duplicates': 'error', // Report repeated import of the same module in multiple places
         'import/no-namespace': 'off', // Report namespace imports
         'import/extensions': 'off', // Ensure consistent use of file extension within the import path
-        'import/order': 'error', // Enforce a convention in module import order
+        'import/order': [
+            'error',
+            {
+                groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index', 'object', 'type'],
+            },
+        ], // Enforce a convention in module import order
         'import/newline-after-import': 'error', // Enforce a newline after import statements
         'import/prefer-default-export': 'off', // Prefer a default export if module exports a single name
         'import/max-dependencies': 'off', // Limit the maximum number of dependencies a module can have
