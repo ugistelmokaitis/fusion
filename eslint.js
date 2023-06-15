@@ -103,7 +103,7 @@ module.exports = {
         'react/jsx-key': 'error', // Disallow missing key props in iterators/collection literals
         'react/jsx-max-depth': 'off', // Validate JSX maximum depth
         'react/jsx-max-props-per-line': 'off', // Limit maximum of props on a single line in JSX
-        'react/jsx-no-bind': 'error', // Prevent usage of .bind() and arrow functions in JSX props
+        'react/jsx-no-bind': 'off', // Prevent usage of .bind() and arrow functions in JSX props
         'react/jsx-one-expression-per-line': 'off', // Limit to one expression per line in JSX
         'react/jsx-pascal-case': 'error', // Enforce PascalCase for user-defined JSX components
         'react/jsx-props-no-spreading': 'off', // Disallow JSX prop spreading
