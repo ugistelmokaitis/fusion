@@ -205,7 +205,7 @@ module.exports = {
         curly: 'error', // Enforce consistent brace style for all control statements
         eqeqeq: 'error', // Require the use of === and !==
         'max-lines-per-function': 'off', // Enforce a maximum number of lines of code in a function
-        'new-cap': 'error', // Require constructor names to begin with a capital letter
+        'new-cap': 'off', // Require constructor names to begin with a capital letter
         'grouped-accessor-pairs': 'error', // Require grouped accessor pairs in object literals and classes
         'consistent-return': 'error', // Require return statements to either always or never specify values
         'max-lines': 'off', // Enforce a maximum number of lines per file
