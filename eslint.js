@@ -518,7 +518,7 @@ module.exports = {
         'import/no-named-as-default': 'off', // Report any invalid exports, i.e. re-export of the same name
         'import/no-named-as-default-member': 'error', // Report use of exported name as identifier of default export
         'import/no-deprecated': 'error', // Report imported names marked with @deprecated documentation tag
-        'import/no-extraneous-dependencies': 'error', // Forbid the use of extraneous packages
+        'import/no-extraneous-dependencies': 'off', // Forbid the use of extraneous packages
         'import/no-mutable-exports': 'error', // Forbid the use of mutable exports with var or let
         'import/no-unused-modules': 'error', // Report modules without exports, or exports without matching import in another module
         'import/unambiguous': 'error', // Report potentially ambiguous parse goal (script vs. module)
