@@ -406,7 +406,7 @@ module.exports = {
         '@typescript-eslint/class-literal-property-style': 'error', // Enforces consistent usage of type assertions
         '@typescript-eslint/consistent-indexed-object-style': 'error', // Require or disallow the Record type
         '@typescript-eslint/consistent-type-assertions': 'error', // Enforce consistent usage of type assertions
-        '@typescript-eslint/consistent-type-definitions': ['error', 'type', 'interface'], // Enforce type definitions to consistently use either interface or type
+        '@typescript-eslint/consistent-type-definitions': ['off'], // Enforce type definitions to consistently use either interface or type
         '@typescript-eslint/consistent-type-exports': 'error', // Enforce consistent usage of type exports
         '@typescript-eslint/consistent-type-imports': 'error', // Enforce consistent usage of type imports
         '@typescript-eslint/explicit-function-return-type': 'off', // Require explicit return types on functions and class methods
