@@ -113,7 +113,7 @@ module.exports = {
         'react/jsx-no-undef': 'error', // Disallow undeclared variables in JSX
         'react/jsx-no-useless-fragment': 'error', // Disallow unnecessary fragments
         'react/jsx-wrap-multilines': 'error', // Prevent missing parentheses around multilines JSX
-        'react/jsx-sort-default-props': 'error', // Enforce defaultProps declarations alphabetical sorting
+        'react/sort-default-props': 'error', // Enforce defaultProps declarations alphabetical sorting
         'react/jsx-sort-props': 'off', // Enforce props alphabetical sorting
         'react/jsx-uses-react': 'error', // Disallow React to be incorrectly marked as unused
         // !ESLint-Promise rules
@@ -123,7 +123,7 @@ module.exports = {
         'promise/no-nesting': 'error', // Avoid nested .then() or .catch() statements
         'promise/no-promise-in-callback': 'error', // Avoid using promises inside of callbacks
         'promise/no-callback-in-promise': 'error', // Avoid calling cb() inside of a then() (use nodeify instead)
-        'promise/avoid-new': 'error', // Avoid creating new promises outside of utility libs (use pify instead)
+        'promise/avoid-new': 'off', // Avoid creating new promises outside of utility libs (use pify instead)
         'promise/no-new-statics': 'error', // Avoid calling new on a Promise static method
         'promise/no-return-in-finally': 'error', // Disallow return statements in finally()
         'promise/valid-params': 'error', // Ensure the proper number of arguments are passed to Promise functions
