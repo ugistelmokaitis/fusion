@@ -14,7 +14,7 @@ module.exports = {
     },
     plugins: ['react', 'react-hooks', '@typescript-eslint', 'jsx-a11y', 'import', 'jest', 'promise', 'n'],
     ignorePatterns: ['**/*.js'],
-    extends: ['plugin:react/jsx-runtime', 'prettier', 'plugin:import/typescript', 'plugin:tailwindcss/recommended'],
+    extends: ['plugin:react/jsx-runtime', 'prettier', 'plugin:import/typescript'],
     settings: {
         react: {
             version: 'detect',
