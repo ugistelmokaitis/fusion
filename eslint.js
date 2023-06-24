@@ -200,7 +200,7 @@ module.exports = {
         'max-nested-callbacks': 'error', // Enforce a maximum depth that callbacks can be nested
         'consistent-this': 'error', // Enforce consistent naming when capturing the current execution context
         'func-names': 'error', // Require function names to match the name of the variable or property to which they are assigned
-        'id-length': 'error', // Enforce minimum and maximum identifier lengths
+        'id-length': 'off', // Enforce minimum and maximum identifier lengths
         'func-style': 'error', // Enforce the consistent use of either function declarations or expressions
         curly: 'error', // Enforce consistent brace style for all control statements
         eqeqeq: 'error', // Require the use of === and !==
