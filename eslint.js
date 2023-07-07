@@ -541,7 +541,7 @@ module.exports = {
         'import/prefer-default-export': 'off', // Prefer a default export if module exports a single name
         'import/max-dependencies': 'off', // Limit the maximum number of dependencies a module can have
         'import/no-unassigned-import': 'off', // Forbid unassigned imports
-        'import/no-named-default': 'error', // Forbid named default exports
+        'import/no-named-default': 'off', // Forbid named default exports
         'import/no-default-export': 'off', // Forbid anonymous values as default exports
         'import/no-named-export': 'off', // Forbid named exports
         'import/no-anonymous-default-export': 'error', // Forbid anonymous values as exports
