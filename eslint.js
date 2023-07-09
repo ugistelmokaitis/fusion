@@ -503,7 +503,7 @@ module.exports = {
         'import/no-unresolved': 'off', // Ensure imports point to a file/module that can be resolved.
         'import/named': 'error', // Ensure named imports correspond to a named export in the remote file.
         'import/default': 'error', // Ensure a default export is present, given a default import.
-        'import/namespace': 'error', // Ensure imported namespaces contain dereferenced properties as they are dereferenced.
+        'import/namespace': 'off', // Ensure imported namespaces contain dereferenced properties as they are dereferenced.
         'import/no-restricted-paths': 'off', // Restrict which files can be imported in a given folder
         'import/no-absolute-path': 'error', // Forbid import of modules using absolute paths
         'import/no-dynamic-require': 'error', // Forbid require() calls with expressions
