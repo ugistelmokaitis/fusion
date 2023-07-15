@@ -175,7 +175,7 @@ module.exports = {
         'no-setter-return': 'error', // Disallow returning values from setters
         'no-promise-executor-return': 'error', // Disallow calling global object properties as functions
         'no-template-curly-in-string': 'error', // Disallow template literal placeholder syntax in regular strings
-        'no-this-before-super': 'error', // Disallow this/super before calling super() in constructors
+        'no-this-before-super': 'error', // Disallow this/super before@typescript-eslint/no-parameter-properties calling super() in constructors
         'no-unreachable': 'error', // Disallow unreachable code after return, throw, continue, and break statements
         'no-undef': 'error', // Disallow initializing variables to undefined
         'no-unmodified-loop-condition': 'error', // Disallow unmodified loop conditions
@@ -450,7 +450,6 @@ module.exports = {
         '@typescript-eslint/no-non-null-asserted-nullish-coalescing': 'error', // Disallow non-null assertions in the left operand of a nullish coalescing operator
         '@typescript-eslint/no-non-null-asserted-optional-chain': 'error', // Disallow non-null assertions after an optional chain expression
         '@typescript-eslint/no-non-null-assertion': 'error', // Disallow non-null assertions using the ! postfix operator
-        '@typescript-eslint/no-parameter-properties': 'error', // Disallow the use of parameter properties in class constructors
         '@typescript-eslint/no-redundant-type-constituents': 'error', // Disallow members of unions and intersections that do nothing or override type information
         '@typescript-eslint/no-require-imports': 'error', // Disallow invocation of require()
         '@typescript-eslint/no-this-alias': 'error', // Disallow aliasing this
@@ -491,7 +490,6 @@ module.exports = {
         '@typescript-eslint/require-array-sort-compare': 'error', // Require Array#sort calls to always provide a compareFunction
         '@typescript-eslint/restrict-plus-operands': 'error', // Require both operands of addition to be the same type and be bigint, number, or string
         '@typescript-eslint/restrict-template-expressions': 'error', // Enforce template literal expressions to be of string type
-        '@typescript-eslint/sort-type-union-intersection-members': 'off', // Enforce members of a type union/intersection to be sorted alphabetically
         '@typescript-eslint/strict-boolean-expressions': 'off', // Disallow certain types in boolean expressions
         '@typescript-eslint/switch-exhaustiveness-check': 'error', // Require switch-case statements to be exhaustive with union type
         '@typescript-eslint/triple-slash-reference': 'error', // Disallow certain triple slash directives in favor of ES6-style import declarations
