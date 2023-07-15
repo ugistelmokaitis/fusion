@@ -376,7 +376,6 @@ module.exports = {
         '@typescript-eslint/lines-between-class-members': 'error', // Require or disallow an empty line between class members
         '@typescript-eslint/no-array-constructor': 'error', // Disallow generic Array constructors
         '@typescript-eslint/no-dupe-class-members': 'error', // Disallow duplicate class members
-        '@typescript-eslint/no-duplicate-imports': 'error', // Disallow duplicate imports
         '@typescript-eslint/no-empty-function': 'error', // Disallow empty functions
         '@typescript-eslint/no-extra-parens': 'off', // Disallow unnecessary parentheses
         '@typescript-eslint/no-extra-semi': 'error', // Disallow unnecessary semicolons
