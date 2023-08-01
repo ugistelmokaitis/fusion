@@ -54,7 +54,7 @@
         "typescript": "^4.8.4"
     },
     "devDependencies": {
-        "@auto-it/all-contributors": "^10.46.0",
+        "@auto-it/all-contributors": "^11.0.0",
         "@auto-it/conventional-commits": "^10.46.0",
         "@auto-it/first-time-contributor": "^10.46.0",
         "@typescript-eslint/eslint-plugin": "^5.61.0",
