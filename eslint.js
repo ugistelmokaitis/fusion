@@ -630,7 +630,6 @@ module.exports = {
         // !ESLint-node for Node.js
         'n/no-process-exit': 'error', // Disallow the use of process.exit()
         'n/no-unsupported-features/node-builtins': 'off', // Disallow unsupported Node.js built-in APIs on the specified version
-        'n/no-unpublished-import': 'error', // Disallow import declarations which import private modules
         'n/prefer-global/url': 'error', // Enforce the use of global URL over require('url').URL
         'n/prefer-promises/dns': 'error', // Enforce require("dns").promises
         'n/prefer-promises/fs': 'error', //  Enforce require("fs").promises
