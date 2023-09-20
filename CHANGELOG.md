@@ -1,3 +1,15 @@
+# v1.15.1 (Wed Sep 20 2023)
+
+#### ⚠️ Pushed to `master`
+
+- 1.15.1 ([@ugistelmokaitis](https://github.com/ugistelmokaitis))
+
+#### Authors: 1
+
+- Ugi Stelmokaitis ([@ugistelmokaitis](https://github.com/ugistelmokaitis))
+
+---
+
 # v1.15.0 (Wed Sep 20 2023)
 
 :tada: This release contains work from a new contributor! :tada:
