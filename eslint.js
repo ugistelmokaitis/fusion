@@ -12,17 +12,7 @@ module.exports = {
             jsx: true,
         },
     },
-    plugins: [
-        'react',
-        'react-hooks',
-        '@typescript-eslint',
-        'jsx-a11y',
-        'import',
-        'jest',
-        'promise',
-        'n',
-        'simple-import-sort',
-    ],
+    plugins: ['react', 'react-hooks', '@typescript-eslint', 'jsx-a11y', 'import', 'jest', 'promise', 'n'],
     ignorePatterns: ['**/*.js'],
     extends: ['plugin:react/jsx-runtime', 'prettier', 'plugin:import/typescript'],
     settings: {
@@ -544,8 +534,6 @@ module.exports = {
                 groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index', 'object', 'type'],
             },
         ], // Enforce a convention in module import order
-        'simple-import-sort/imports': 'error', // Enforce a convention in module import order
-        'simple-import-sort/exports': 'error', // Enforce a convention in module import order
         'import/newline-after-import': 'error', // Enforce a newline after import statements
         'import/prefer-default-export': 'off', // Prefer a default export if module exports a single name
         'import/max-dependencies': 'off', // Limit the maximum number of dependencies a module can have
