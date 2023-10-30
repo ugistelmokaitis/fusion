@@ -1,3 +1,23 @@
+# v1.16.0 (Mon Oct 30 2023)
+
+#### 🚀 Enhancement
+
+- feat: minor fixes ([@ugistelmokaitis](https://github.com/ugistelmokaitis))
+- feat: add autofixable import sorting ([@ugistelmokaitis](https://github.com/ugistelmokaitis))
+
+#### ⚠️ Pushed to `master`
+
+- 1.16.1 ([@ugistelmokaitis](https://github.com/ugistelmokaitis))
+- 1.15.4 ([@ugistelmokaitis](https://github.com/ugistelmokaitis))
+- remove: remove import sorting due to rules conflict ([@ugistelmokaitis](https://github.com/ugistelmokaitis))
+- 1.15.3 ([@ugistelmokaitis](https://github.com/ugistelmokaitis))
+
+#### Authors: 1
+
+- Ugi Stelmokaitis ([@ugistelmokaitis](https://github.com/ugistelmokaitis))
+
+---
+
 # v1.16.0 (Thu Oct 05 2023)
 
 #### 🚀 Enhancement
