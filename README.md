@@ -1,6 +1,6 @@
 # fusion
 
-! _Linting rules for React apps.
+! \_Linting rules for React apps.
 
 Fusion Config: A seamless blend of pre-defined [ESLint](https://eslint.org/) rulesets, encompassing essential aspects including:
 
@@ -110,10 +110,10 @@ code --install-extension stylelint.vscode-stylelint
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
-    "editor.tabSize": 4,
-    "editor.wordWrapColumn": 120,
-    "prettier.tabWidth": 4,
-    "prettier.printWidth": 120,
+    "editor.tabSize": 2,
+    "editor.wordWrapColumn": 80,
+    "prettier.tabWidth": 2,
+    "prettier.printWidth": 80,
     "emmet.showExpandedAbbreviation": "never",
     "editor.codeActionsOnSave": {
         "source.fixAll.esbenp.prettier-vscode": true,
