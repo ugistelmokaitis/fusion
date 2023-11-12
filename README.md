@@ -4,24 +4,24 @@
 
 Fusion Config: A seamless blend of pre-defined [ESLint](https://eslint.org/) rulesets, encompassing essential aspects including:
 
--   [React](https://github.com/jsx-eslint/eslint-plugin-react)
--   [React Hooks](https://github.com/facebook/react)
--   [promise](https://github.com/eslint-community/eslint-plugin-promise)
--   [n](https://github.com/eslint-community/eslint-plugin-n)
--   [Stylelint-Prettier](https://github.com/prettier/stylelint-prettier)
--   [jest](https://github.com/jest-community/eslint-plugin-jest)
--   [Stylelint](https://stylelint.io/)
--   [Typescript](https://github.com/typescript-eslint/typescript-eslint)
--   [Tailwind](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
--   [Import](https://github.com/import-js/eslint-plugin-import)
--   [jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y)
--   [Prettier](https://prettier.io/)
+- [React](https://github.com/jsx-eslint/eslint-plugin-react)
+- [React Hooks](https://github.com/facebook/react)
+- [promise](https://github.com/eslint-community/eslint-plugin-promise)
+- [n](https://github.com/eslint-community/eslint-plugin-n)
+- [Stylelint-Prettier](https://github.com/prettier/stylelint-prettier)
+- [jest](https://github.com/jest-community/eslint-plugin-jest)
+- [Stylelint](https://stylelint.io/)
+- [Typescript](https://github.com/typescript-eslint/typescript-eslint)
+- [Tailwind](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
+- [Import](https://github.com/import-js/eslint-plugin-import)
+- [jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y)
+- [Prettier](https://prettier.io/)
 
 ## Installation
 
 1. Install the package:
 
--   if you're using npm:
+- if you're using npm:
 
 ```sh
 npm install --save-dev @ugistelmokaitis/fusion
@@ -47,7 +47,7 @@ stylelint-prettier \
 jest
 ```
 
--   if you're using yarn:
+- if you're using yarn:
 
 ```sh
 yarn add -D @ugistelmokaitis/fusion
@@ -86,17 +86,17 @@ code --install-extension stylelint.vscode-stylelint
 
 ```json
 {
-    "eslintConfig": {
-        "extends": "./node_modules/@ugistelmokaitis/fusion/eslint.js",
-        "parserOptions": {
-            "project": "./tsconfig.json"
-        }
-    },
-    "prettier": "@ugistelmokaitis/fusion/prettier",
-    "stylelint": {
-        // optional: only if you use Stylelint otherwise omit this field
-        "extends": "@ugistelmokaitis/fusion/stylelint"
+  "eslintConfig": {
+    "extends": "./node_modules/@ugistelmokaitis/fusion/eslint.js",
+    "parserOptions": {
+      "project": "./tsconfig.json"
     }
+  },
+  "prettier": "@ugistelmokaitis/fusion/prettier",
+  "stylelint": {
+    // optional: only if you use Stylelint otherwise omit this field
+    "extends": "@ugistelmokaitis/fusion/stylelint"
+  }
 }
 ```
 
@@ -106,22 +106,22 @@ code --install-extension stylelint.vscode-stylelint
 
 ```json
 {
-    "typescript.tsdk": "node_modules/typescript/lib",
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true,
-    "editor.tabSize": 2,
-    "editor.wordWrapColumn": 80,
-    "prettier.tabWidth": 2,
-    "prettier.printWidth": 80,
-    "emmet.showExpandedAbbreviation": "never",
-    "editor.codeActionsOnSave": {
-        "source.fixAll.esbenp.prettier-vscode": true,
-        "source.fixAll.eslint": true,
-        "source.fixAll.stylelint": true
-    },
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.tabSize": 4,
+  "editor.wordWrapColumn": 120,
+  "prettier.tabWidth": 4,
+  "prettier.printWidth": 120,
+  "emmet.showExpandedAbbreviation": "never",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.esbenp.prettier-vscode": true,
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
 ```
