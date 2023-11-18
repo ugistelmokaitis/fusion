@@ -93,8 +93,9 @@ code --install-extension stylelint.vscode-stylelint
         }
     },
     "prettier": "@ugistelmokaitis/fusion/prettier",
+
+    // optional: only if you use Stylelint otherwise omit this field
     "stylelint": {
-        // optional: only if you use Stylelint otherwise omit this field
         "extends": "@ugistelmokaitis/fusion/stylelint"
     }
 }
