@@ -3,25 +3,19 @@ module.exports = {
     extends: ['stylelint-config-standard', 'stylelint-config-idiomatic-order', 'stylelint-config-prettier'],
     rules: {
         'prettier/prettier': true,
+        'selector-class-pattern': null,
+        'no-descending-specificity': null,
+        'custom-property-pattern': null,
+        'selector-no-vendor-prefix': null,
+        'property-no-vendor-prefix': null,
+        'declaration-block-no-redundant-longhand-properties': null,
+        'color-function-notation': 'legacy',
         'at-rule-no-unknown': [
             true,
             {
-                ignoreAtRules: ['responsive', 'layer', 'variants', 'tailwind', 'screen', 'apply'],
+                ignoreAtRules: ['responsive', 'value', 'variable', 'each'],
             },
         ],
-        'declaration-block-trailing-semicolon': null,
-        'no-descending-specificity': null,
-        'declaration-block-no-redundant-longhand-properties': [
-            true,
-            {
-                ignoreShorthands: ['/flex/'],
-            },
-        ],
-        'selector-pseudo-class-no-unknown': [
-            true,
-            {
-                ignorePseudoClasses: ['global'],
-            },
-        ],
+        'media-query-no-invalid': null,
     },
 };
