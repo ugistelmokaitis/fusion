@@ -386,7 +386,7 @@ module.exports = {
         '@typescript-eslint/no-magic-numbers': 'off', // Disallow magic numbers
         '@typescript-eslint/no-redeclare': 'error', // Disallow variable redeclaration
         '@typescript-eslint/no-restricted-imports': 'error', // Disallow specified modules when loaded by import
-        '@typescript-eslint/no-shadow': 'error', // Disallow variable declarations from shadowing variables declared in the outer scope
+        '@typescript-eslint/no-shadow': 'off', // Disallow variable declarations from shadowing variables declared in the outer scope
         '@typescript-eslint/no-throw-literal': 'error', // Disallow throwing literals as exceptions
         '@typescript-eslint/no-unused-expressions': 'error', // Disallow unused expressions
         '@typescript-eslint/no-unused-vars': 'error', // Disallow unused variables
