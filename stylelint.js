@@ -1,7 +1,7 @@
 module.exports = {
-    plugins: ['stylelint-prettier'],
-    extends: ['stylelint-config-standard', 'stylelint-config-idiomatic-order', 'stylelint-config-prettier'],
+    extends: ['stylelint-config-standard', 'stylelint-config-idiomatic-order', 'stylelint-prettier/recommended'],
     rules: {
+        'declaration-property-value-no-unknown': true,
         'prettier/prettier': true,
         'selector-class-pattern': null,
         'no-descending-specificity': null,
@@ -13,7 +13,17 @@ module.exports = {
         'at-rule-no-unknown': [
             true,
             {
-                ignoreAtRules: ['responsive', 'value', 'variable', 'each'],
+                ignoreAtRules: [
+                    'value',
+                    'variable',
+                    'each',
+                    'tailwind',
+                    'apply',
+                    'layer',
+                    'variants',
+                    'responsive',
+                    'screen',
+                ],
             },
         ],
         'media-query-no-invalid': null,
