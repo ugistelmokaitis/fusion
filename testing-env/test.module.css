@@ -1,0 +1,27 @@
+.root {
+    position: fixed;
+    z-index: 1;
+    top: red;
+    left: 0;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    backdrop-filter: blur(0.1rem);
+    background-color: transparent;
+}
+
+.scrollbg {
+    backdrop-filter: blur(0.1rem);
+    background-color: transparent;
+}
+
+.bg {
+    width: 100%;
+    justify-content: space-between;
+    border-bottom-color: transparent;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
