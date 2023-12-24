@@ -10,6 +10,7 @@ module.exports = {
         'property-no-vendor-prefix': null,
         'declaration-block-no-redundant-longhand-properties': null,
         'color-function-notation': 'legacy',
+        'color-hex-length': 'long',
         'at-rule-no-unknown': [
             true,
             {
