@@ -1,3 +1,7 @@
+:root {
+    --fusion-colors-neutral-0: #000000;
+}
+
 .root {
     position: fixed;
     z-index: 1;
