@@ -11,6 +11,7 @@ module.exports = {
         'declaration-block-no-redundant-longhand-properties': null,
         'color-function-notation': 'legacy',
         'color-hex-length': 'long',
+        'declaration-property-value-no-unknown': null,
         'at-rule-no-unknown': [
             true,
             {
