@@ -477,7 +477,7 @@ module.exports = {
         '@typescript-eslint/prefer-includes': 'error', // Enforce includes method over indexOf method
         '@typescript-eslint/prefer-literal-enum-member': 'error', // Require all enum members to be literal values
         '@typescript-eslint/prefer-namespace-keyword': 'error', // Require using namespace keyword over module keyword to declare custom TypeScript modules
-        '@typescript-eslint/prefer-nullish-coalescing': 'error', // Enforce using the nullish coalescing operator instead of logical chaining
+        '@typescript-eslint/prefer-nullish-coalescing': 'off', // Enforce using the nullish coalescing operator instead of logical chaining
         '@typescript-eslint/prefer-optional-chain': 'error', // Enforce using concise optional chain expressions instead of chained logical ands, negated logical ors, or empty objects
         '@typescript-eslint/prefer-readonly': 'off', // Require private members to be marked as readonly if they're never modified outside of the constructor
         '@typescript-eslint/prefer-readonly-parameter-types': 'off', // Require function parameters to be typed as readonly to prevent accidental mutation of inputs
