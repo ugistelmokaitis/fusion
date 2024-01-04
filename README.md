@@ -1,6 +1,6 @@
 # fusion
 
-! _Linting rules for React apps.
+! \_Linting rules for React apps.
 
 Fusion Config: A seamless blend of pre-defined [ESLint](https://eslint.org/) rulesets, encompassing essential aspects including:
 
@@ -93,8 +93,9 @@ code --install-extension stylelint.vscode-stylelint
         }
     },
     "prettier": "@ugistelmokaitis/fusion/prettier",
+
+    // optional: only if you use Stylelint otherwise omit this field
     "stylelint": {
-        // optional: only if you use Stylelint otherwise omit this field
         "extends": "@ugistelmokaitis/fusion/stylelint"
     }
 }
