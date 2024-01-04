@@ -455,7 +455,7 @@ module.exports = {
         '@typescript-eslint/no-this-alias': 'error', // Disallow aliasing this
         '@typescript-eslint/no-type-alias': 'off', // Disallow type aliases
         '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error', // Disallow unnecessary equality comparisons against boolean literals
-        '@typescript-eslint/no-unnecessary-condition': 'error', // Disallow conditionals where the type is always truthy or always falsy
+        '@typescript-eslint/no-unnecessary-condition': 'off', // Disallow conditionals where the type is always truthy or always falsy
         '@typescript-eslint/no-unnecessary-qualifier': 'error', // Disallow unnecessary namespace qualifiers
         '@typescript-eslint/no-unnecessary-type-arguments': 'error', // Disallow type arguments that are equal to the default
         '@typescript-eslint/no-unnecessary-type-assertion': 'error', // Disallow type assertions that do not change the type of an expression
