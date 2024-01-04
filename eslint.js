@@ -521,7 +521,7 @@ module.exports = {
         'import/unambiguous': 'error', // Report potentially ambiguous parse goal (script vs. module)
         'import/no-commonjs': 'error', // Report CommonJS require calls and module.exports or exports.*
         'import/no-amd': 'error', // Report AMD require and define calls.
-        'import/no-nodejs-modules': 'error', // No Node.js builtin modules
+        'import/no-nodejs-modules': 'off', // No Node.js builtin modules
         'import/no-import-module-exports': 'error', // Ensure all exports appear after other statements
         'import/first': 'error', // Report repeated import of the same module in multiple places
         'import/exports-last': 'off', // Report repeated import of the same module in multiple places
