@@ -372,7 +372,7 @@ module.exports = {
         // !Typescript-ESLint Extension Rules
         '@typescript-eslint/default-param-last': 'error', // Enforce default parameters to be last
         '@typescript-eslint/dot-notation': 'error', // Enforce dot notation whenever possible
-        '@typescript-eslint/init-declarations': 'error', // Require or disallow initialization in variable declarations
+        '@typescript-eslint/init-declarations': 'off', // Require or disallow initialization in variable declarations
         '@typescript-eslint/lines-between-class-members': 'error', // Require or disallow an empty line between class members
         '@typescript-eslint/no-array-constructor': 'error', // Disallow generic Array constructors
         '@typescript-eslint/no-dupe-class-members': 'error', // Disallow duplicate class members
