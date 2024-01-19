@@ -419,6 +419,8 @@ module.exports = {
             {
                 selector: 'default',
                 format: ['camelCase', 'PascalCase', 'snake_case', 'UPPER_CASE'],
+                leadingUnderscore: 'allow',
+                trailingUnderscore: 'allow',
             }, // Enforce using a particular method signature syntax
 
             {
