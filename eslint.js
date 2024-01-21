@@ -421,13 +421,16 @@ module.exports = {
                 format: ['camelCase', 'PascalCase', 'snake_case', 'UPPER_CASE'],
                 leadingUnderscore: 'allow',
                 trailingUnderscore: 'allow',
-            }, // Enforce using a particular method signature syntax
-
+            },
             {
                 selector: 'objectLiteralProperty',
                 format: null,
                 modifiers: ['requiresQuotes'],
-            }, // Enforce using a particular method signature syntax
+            },
+            {
+                selector: 'objectLiteralMethod',
+                format: null,
+            },
         ],
         '@typescript-eslint/no-base-to-string': 'error', // Require .toString() to only be called on objects which provide useful information when stringified
         '@typescript-eslint/no-confusing-non-null-assertion': 'error', // Disallow non-null assertion in locations that may be confusing
