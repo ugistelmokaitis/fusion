@@ -630,7 +630,7 @@ module.exports = {
         'jsx-a11y/no-autofocus': 'error', // Enforce autoFocus prop is not used.
         'jsx-a11y/no-distracting-elements': 'error', // Enforce distracting elements are not used.
         'jsx-a11y/no-interactive-element-to-noninteractive-role': 'error', // Interactive elements should not be assigned non-interactive roles.
-        'jsx-a11y/no-noninteractive-element-interactions': 'error', // Non-interactive elements should not be assigned mouse or keyboard event listeners.
+        'jsx-a11y/no-noninteractive-element-interactions': 'off', // Non-interactive elements should not be assigned mouse or keyboard event listeners.
         'jsx-a11y/no-noninteractive-element-to-interactive-role': 'error', // Non-interactive elements should not be assigned interactive roles.
         // !ESLint-node for Node.js
         'n/no-process-exit': 'error', // Disallow the use of process.exit()
