@@ -117,9 +117,9 @@ code --install-extension stylelint.vscode-stylelint
     "prettier.printWidth": 120,
     "emmet.showExpandedAbbreviation": "never",
     "editor.codeActionsOnSave": {
-        "source.fixAll.esbenp.prettier-vscode": true,
-        "source.fixAll.eslint": true,
-        "source.fixAll.stylelint": true
+        "source.fixAll.esbenp.prettier-vscode": "explicit",
+        "source.fixAll.eslint": "explicit",
+        "source.fixAll.stylelint": "explicit"
     },
     "[typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
