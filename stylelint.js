@@ -1,7 +1,6 @@
 module.exports = {
     extends: ['stylelint-config-standard', 'stylelint-config-idiomatic-order', 'stylelint-prettier/recommended'],
     rules: {
-        'declaration-property-value-no-unknown': true,
         'prettier/prettier': true,
         'selector-class-pattern': null,
         'no-descending-specificity': null,
